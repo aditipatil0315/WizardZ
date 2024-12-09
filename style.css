@@ -1,0 +1,349 @@
+@font-face {
+    font-family: brandium;
+    src: url(./3856NeueMachina\ \(1\).woff2);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    position: relative
+}
+
+nav h1 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+nav h1 i {
+    rotate: 30deg;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 45px;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+}
+
+nav .part2 {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+nav button{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 0.7rem;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor:pointer;
+}
+
+.part2 h4 {
+    font-size: large;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+.center {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    padding: 70px;
+}
+
+.partone{
+    height: 100%;
+    width: 40%;
+}
+
+
+.partone h2 {
+    font-family: brandium;
+    font-size: 55px;
+    margin-bottom: 1.5rem;
+    line-height: 75px;
+}
+
+.partone p{
+    font-size: 20px;
+    margin-bottom: 1.7rem;
+}
+
+.partone button {
+    border: 1px solid black;
+    background-color: #111;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor:pointer;
+}
+
+.parttwo{
+    height: 100%;
+    width: 60%;
+    position: relative;
+}
+
+.parttwo img {
+    width: 77%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+
+.sec-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px; */
+    padding: 40px 120px;
+    gap: 1rem;
+}
+
+.sec-bottom img {
+    height: 40px;
+    color: #111;
+    background-color: white;
+}
+
+.section2 {
+    padding: 40px 70px;
+}
+
+.section2 .services {
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2.5rem;
+    margin-top: 30px;
+}
+
+.section2 h3 {
+    font-size: 50px;
+    font-weight: 900;
+    background-color: #B9FF66;
+    padding: 7px 9px;
+    font-family: brandium;
+}
+
+.services p{
+    width: 60%;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.container {
+    height: 90%;
+    width: 100%;
+    /* background-color: lightgoldenrodyellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-bottom: 50px;
+}
+
+
+.container .ele  {
+    flex-shrink: 0;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 48%;
+    box-shadow: 0 12px 0 black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ele {
+    padding: 30px 30px;
+}
+
+.ele img {
+    height: 190px;
+}
+
+.container .ele-black {
+    background-color: #111;
+    flex-shrink: 0;
+    height: 300px;
+    border: 3px solid black;
+    border-radius: 50px;
+    width: 48%;
+    box-shadow: 0 12px 0 black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ele-black {
+    padding: 30px 30px;
+}
+
+.ele-black img {
+    height: 190px;
+}
+
+.ele .text h2 {
+    width: 77%;
+    font-size: 35px;
+    font-family: brandium;
+    background-color: #B9FF66;
+    padding: 3px;
+    border-radius: 10px;
+
+
+}
+
+.ele-black .text h2 {
+    width: 77%;
+    font-size: 35px;
+    font-family: brandium;
+    background-color: #fff;
+    padding: 3px;
+    border-radius: 10px;
+
+
+}
+
+.ele  .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.ele-black .text {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.text p {
+    font-size: 21px;
+}
+
+.text p i {
+    border-radius: 50%;
+    background-color: #B9FF66;
+    font-size: 30px;
+    margin: 7px;
+    padding: 3px;
+
+}
+
+.ele-black .text p {
+    color: #fff;
+}
+
+.section3 {
+    height: 60%;
+    width:90%;
+    margin: 50px 90px;
+    top: 18rem;
+    background-color: rgb(220, 220, 220);
+    border-radius: 90px;
+    display: flex;
+    justify-content: space-around;
+    padding: 70px 30px;
+    
+}
+
+.section3 .part3 {
+    padding:0 50px;
+    
+
+}
+
+.part3 button {
+    border: 1px solid black;
+    background-color: #111;
+    color: white;
+    border-radius: 0.7rem;
+    padding: 15px 25px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor:pointer;
+    margin-top: 1rem;
+}
+
+.part3 h3 {
+    font-size: 2.3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.part3 p {
+    font-size: 21px;
+    margin-bottom: 2rem;
+    width: 70%;
+}
+
+.section5 {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: #B9FF66;
+    margin-top: 3rem;
+    top: 21rem;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.section5 .box {
+    padding: 30px 50px;
+    width: 30%;
+    height: 150px;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.section5 .box p{
+    font-size: larger;
+    padding: 10px 0;
+    font-weight: 800;
+}
+
+ul li {
+    list-style: none;
+    font-size: medium ;
+    font-weight: 500;
+}
+
+
